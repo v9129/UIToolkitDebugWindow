@@ -1,0 +1,7 @@
+@import url("unity-theme://default");
+
+
+
+.unity-internal-vars {
+    --unity-theme-colors-focus-text: #AAAA00;
+}

@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkitDebugWindow/Runtime/Structures/Uss.uss?fileID=7433441132597879392&amp;guid=511c5a83c2b434b0191c6ac4b2c0e289&amp;type=3#Uss" />
+    <ui:VisualElement class="dwd">
+        <UTKDebugWindow.DebugWindow text="Test">
+            <ui:Label text="Label" display-tooltip-when-elided="true" />
+            <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="こんにちは" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" />
+            <ui:Toggle label="Toggle" value="true" />
+            <ui:Foldout text="Foldout">
+                <ui:ScrollView style="height: 150px;">
+                    <ui:Button text="Button" display-tooltip-when-elided="true" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" />
+                    <ui:Button text="Button" display-tooltip-when-elided="true" />
+                </ui:ScrollView>
+            </ui:Foldout>
+            <ui:Slider picking-mode="Ignore" label="Slider" value="32.4" high-value="100" show-input-field="true" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:SliderInt picking-mode="Ignore" label="SliderInt" value="73" high-value="100" show-input-field="true" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:MinMaxSlider picking-mode="Ignore" label="Min/Max Slider" min-value="-5" max-value="12" low-limit="-10" high-limit="40" />
+            <ui:ProgressBar title="ProgressBar" low-value="0" />
+            <ui:DropdownField label="Dropdown" index="-1" choices="a,b,c,d" />
+            <ui:RadioButtonGroup label="Radio Button Group Hoge" choices="a,b,c" value="0" style="flex-direction: row;">
+                <ui:RadioButton text="test1" />
+                <ui:RadioButton text="test2" />
+                <ui:RadioButton value="true" text="test3" />
+            </ui:RadioButtonGroup>
+            <ui:Label text="Label" />
+            <ui:VisualElement name="tabs" class="tabs">
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </UTKDebugWindow.DebugWindow>
+    </ui:VisualElement>
+</ui:UXML>
